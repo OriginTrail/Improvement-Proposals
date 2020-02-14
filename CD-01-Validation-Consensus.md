@@ -33,7 +33,7 @@ A determined number of DH nodes are selected by the DC and DH, and the Validator
 Data is sent by both the DC and DH for validation to the VP, who check the data as per the documented litigation process.
 If the returned result from the collective VP Validation Consensus is lower than 50%, the DH and DC are informed that there is a discrepancy and the process continues to smart contract for resolution and final litigation.
 
-[*A fee structure could be added to this to add to the ODN economy. This could be a fee paid at time of DC data creation. Any fees not used could be returned to the DC or used as a development pool.]
+**A fee structure could be added to this to add to the ODN economy. This could be a fee paid at time of DC data creation. Any fees not used could be returned to the DC or used as a development pool.*
 
 ## Rationale
 The RFC outlines the process of consensus on the ODN.
