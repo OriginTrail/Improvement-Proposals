@@ -16,7 +16,8 @@ The current documented process for litigation requires the Data Creator (DC) and
 This process is actioned by the DC if it does not get a satisfactory response from the DH when challenged with a data block.
 
 ### Proposal:
-This proposal would add a process into the current procedure between the DC’s check and the smart contract validation. The process would utilise the ODN nodes to validate the data block through a Validation Consensus, therefore reducing the number of smart contract calls and also mitigating against bad actors.
+This proposal would add a process into the current procedure between the DC’s check and the smart contract validation. 
+The process would utilise the ODN nodes to validate the data block through a Validation Consensus, therefore reducing the number of smart contract calls and also mitigating against bad actors.
 
 ### Procedure Flow:
 > DC: Data Block Request ----> DH: Data Block Return ---> DC: Validation Check ---> DC: Validation Fails ---> DC | DH : Broadcast  for Validators ---> Nodes reply and form Validator Pool (VP) ---> DC | DH: Send Data to VP for validation ---> VP: Returns Validation Consensus Score (%) ---> Validation Passes [END] / Validation Fails – Smart Contract Final Litigation
@@ -36,8 +37,10 @@ If the returned result from the collective VP Validation Consensus is lower than
 
 ## Rationale
 The RFC outlines the process of consensus on the ODN.
-Further improvements to the proposal could be made by removing the DC’s authority to self-police the data. This would be done by checking data across replicated data nodes and taking action against bad actors, including DC’s attempting to game the system.
-Another example would be a tiered node structure which would provide greater security to the overall network.
+Further improvements to the proposal could be made by removing the DC’s authority to self-police the data. 
+This would be done by checking data across replicated data nodes and taking action against bad actors, including DC’s attempting to game the system.
+
+Another example would be a tiered node structure which would provide greater security to the overall network through .
 
 ## Backwards Compatibility
 This improvement proposal is unlikely to be backward compatible and would be considered an hard fork, requiring all nodes to be updated.
