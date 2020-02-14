@@ -22,7 +22,8 @@ The process would utilise the ODN nodes to validate the data block through a Val
 ### Procedure Flow:
 > DC: Data Block Request ----> DH: Data Block Return ---> DC: Validation Check ---> DC: Validation Fails ---> DC | DH : Broadcast  for Validators ---> Nodes reply and form Validator Pool (VP) ---> DC | DH: Send Data to VP for validation ---> VP: Returns Validation Consensus Score (%) ---> Validation Passes [END] / Validation Fails – Smart Contract Final Litigation
 
-If the data returned to the DC does not pass their internal check, the data is passed into the ODN for Validation. 
+The process begins with the current process of the DC requesting and checking a data block from the DH. 
+If the data returned to the DC does not pass their own internal check, the data is passed into the ODN for Validation. 
 
 The DC would first notify the DH of the Validation Consensus.
 
